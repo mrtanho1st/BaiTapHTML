@@ -1,0 +1,47 @@
+*{
+    background-color: white;
+    
+}
+h1{
+    font-size: 25px;
+    color: black;
+}
+header{
+    background-color: cornflowerblue;
+    font-size: 20px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 7px;
+}
+.container {
+    display: flex;           /* Đặt container thành flexbox */
+    height: 200px;
+    font-size: 20px;
+}
+.sidebar {
+
+    width: 30%;              /* Chiều rộng phần nav (bên trái) */
+    background-color: cornflowerblue;
+    padding: 7px;
+    border: 1px solid black;
+}
+.content {
+    background-color: cornflowerblue;
+    width: 70%;              /* Chiều rộng phần section (bên phải) */
+    padding: 7px;
+    border: 1px solid black;
+}
+footer{
+    background-color: cornflowerblue;
+    font-size: 20px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 7px;
+}
+article{
+    background-color: antiquewhite;
+    height: 130px;
+    width: 440px;
+    padding: 10px;
+    border: 1px solid black;
+}
